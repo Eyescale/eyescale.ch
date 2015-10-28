@@ -1,0 +1,149 @@
+/*
+ * Copyright (c) 2005 Stefan Eilemann. All rights reserved.
+ */
+
+body {
+    font-family: Georgia, Garamond, Palatino, Times, serif;
+    background-color: #ffffff;
+}
+
+pre, code {
+    font-family: Lucida Sans Typewriter, Courier New, Courier, monospace;
+}
+
+h1 { 
+    text-align: center;
+    background-color: #004488;
+    color: white;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 120%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 110%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+p
+{ 
+    text-align: justify;
+    margin: 1em;
+}
+
+li
+{ 
+    margin-right: 1em;
+}
+
+dt
+{ 
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+
+td
+{
+    text-align: left;
+    padding: .5ex;
+}
+
+th
+{ 
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: .5ex;
+}
+
+a
+{ 
+  color: #004488;
+  font-weight: bold;
+}
+
+a:visited
+{ 
+  color: #336699;
+}
+
+div.obj {
+    float: right;
+    text-align: justify;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px;
+    padding: 5px;
+    width: 50%;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+div.boxl {
+    text-align: justify;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px;
+    padding: 5px;
+    width: 100%;
+    float: left;
+    background-color: #eee;
+}
+
+div.boxr {
+    text-align: justify;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px;
+    padding: 5px;
+    width: 100%;
+    float: right;
+    background-color: #eee;
+}
+
+.float_right img { 
+    margin: 1em;
+}
+
+div.footnote 
+{ 
+    background-image: url("footnote.png");
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    font-size: x-small;
+}
+
+.float_right
+{
+    float:right; 
+}
+.float_left
+{
+    float:left; 
+}
+.label
+{  
+    font-size: x-small;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.flush_float
+{ 
+    clear: both;
+}
+
+hr
+{ 
+    clear: both;
+}

@@ -1,0 +1,1 @@
+rsync -avz --exclude=".svn" --exclude="README_upload" -e ssh . 80.74.159.177:var/www/www.eyescale.ch
